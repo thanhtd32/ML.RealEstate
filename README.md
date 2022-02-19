@@ -28,7 +28,7 @@ The classes of the ML.RealEstate:
 ![alt text](https://raw.githubusercontent.com/thanhtd32/ML.RealEstate/main/Images/fig-classes-ml.realestate.PNG)
 
 
-Download and Copy Dataset folder "RealEstateDataset" into your execution directory, just like this figure as below:
+Download and Copy Dataset folder "RealEstateDataset"(https://github.com/thanhtd32/ML.RealEstate/tree/main/RealEstateDataset) into your execution directory, just like this figure as below:
 
 ![alt text](https://raw.githubusercontent.com/thanhtd32/ML.RealEstate/main/Images/fig-copy-realestatedataset.PNG)
 
