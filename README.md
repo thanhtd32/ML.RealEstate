@@ -16,4 +16,13 @@ Group support: https://www.facebook.com/groups/communityuni/
 ![alt text](https://raw.githubusercontent.com/thanhtd32/ML.RealEstate/main/Images/fig-demo-ml.realestate.PNG)
 
 # ML.RealEstate - How to use?
+```C#
+Install-Package ML.RealEstate -ProjectName YourProject
+```
+
+The classes of the ML.RealEstate:
+
+![alt text](https://raw.githubusercontent.com/thanhtd32/ML.RealEstate/main/Images/fig-classes-ml.realestate.PNG)
+
+
 Download and Copy Dataset folder "RealEstateDataset" into your execution directory.
