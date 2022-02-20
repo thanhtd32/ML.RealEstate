@@ -50,6 +50,11 @@
     "WardName": "Đa Kao"
   },
   {
+    "Id": 89.0,
+    "DistrictId": 9.0,
+    "WardName": "Tăng Nhơn Phú A "
+  },
+  {
     "Id": 177.0,
     "DistrictId": 5.0,
     "WardName": "Ward 8"
@@ -103,6 +108,11 @@
     "Id": 62.0,
     "DistrictId": 7.0,
     "WardName": "Phú Mỹ"
+  },
+  {
+    "Id": 88.0,
+    "DistrictId": 9.0,
+    "WardName": "Phước Long B "
   },
   {
     "Id": 175.0,
@@ -180,6 +190,11 @@
     "WardName": "Ward 13"
   },
   {
+    "Id": 183.0,
+    "DistrictId": 9.0,
+    "WardName": "Tăng Nhơn Phú B"
+  },
+  {
     "Id": 17.0,
     "DistrictId": 2.0,
     "WardName": "Bình Trưng Tây"
@@ -203,6 +218,11 @@
     "Id": 61.0,
     "DistrictId": 7.0,
     "WardName": "Bình Thuận"
+  },
+  {
+    "Id": 182.0,
+    "DistrictId": 9.0,
+    "WardName": "Tân Phú"
   },
   {
     "Id": 79.0,
@@ -418,5 +438,10 @@
     "Id": 2.0,
     "DistrictId": 1.0,
     "WardName": "Bến Thành"
+  },
+  {
+    "Id": 90.0,
+    "DistrictId": 9.0,
+    "WardName": "Trường Thạnh"
   }
 ]
