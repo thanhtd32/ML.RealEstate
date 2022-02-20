@@ -1,0 +1,447 @@
+﻿[
+  {
+    "Id": 72.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 15"
+  },
+  {
+    "Id": 31.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 1"
+  },
+  {
+    "Id": 45.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 3"
+  },
+  {
+    "Id": 14.0,
+    "DistrictId": 2.0,
+    "WardName": "An Phú"
+  },
+  {
+    "Id": 178.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 4"
+  },
+  {
+    "Id": 77.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 5"
+  },
+  {
+    "Id": 68.0,
+    "DistrictId": 7.0,
+    "WardName": "Tân Quy"
+  },
+  {
+    "Id": 30.0,
+    "DistrictId": 3.0,
+    "WardName": "Võ Thị Sáu"
+  },
+  {
+    "Id": 43.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 14"
+  },
+  {
+    "Id": 6.0,
+    "DistrictId": 1.0,
+    "WardName": "Đa Kao"
+  },
+  {
+    "Id": 89.0,
+    "DistrictId": 9.0,
+    "WardName": "Tăng Nhơn Phú A "
+  },
+  {
+    "Id": 177.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 8"
+  },
+  {
+    "Id": 49.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 7"
+  },
+  {
+    "Id": 15.0,
+    "DistrictId": 2.0,
+    "WardName": "Bình An"
+  },
+  {
+    "Id": 64.0,
+    "DistrictId": 7.0,
+    "WardName": "Tân Hưng"
+  },
+  {
+    "Id": 29.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 9"
+  },
+  {
+    "Id": 3.0,
+    "DistrictId": 1.0,
+    "WardName": "Cầu Kho"
+  },
+  {
+    "Id": 13.0,
+    "DistrictId": 2.0,
+    "WardName": "Bình Khánh"
+  },
+  {
+    "Id": 85.0,
+    "DistrictId": 9.0,
+    "WardName": "Long Trường"
+  },
+  {
+    "Id": 76.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 4"
+  },
+  {
+    "Id": 47.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 5"
+  },
+  {
+    "Id": 62.0,
+    "DistrictId": 7.0,
+    "WardName": "Phú Mỹ"
+  },
+  {
+    "Id": 88.0,
+    "DistrictId": 9.0,
+    "WardName": "Phước Long B "
+  },
+  {
+    "Id": 175.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 14"
+  },
+  {
+    "Id": 53.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 11"
+  },
+  {
+    "Id": 16.0,
+    "DistrictId": 2.0,
+    "WardName": "Bình Trưng Đông"
+  },
+  {
+    "Id": 59.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 6"
+  },
+  {
+    "Id": 84.0,
+    "DistrictId": 9.0,
+    "WardName": "Long Thạnh Mỹ"
+  },
+  {
+    "Id": 8.0,
+    "DistrictId": 1.0,
+    "WardName": "Nguyễn Thái Bình"
+  },
+  {
+    "Id": 36.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 3"
+  },
+  {
+    "Id": 7.0,
+    "DistrictId": 1.0,
+    "WardName": "Nguyễn Cư Trinh"
+  },
+  {
+    "Id": 75.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 3"
+  },
+  {
+    "Id": 18.0,
+    "DistrictId": 2.0,
+    "WardName": "Cát Lái "
+  },
+  {
+    "Id": 80.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 9"
+  },
+  {
+    "Id": 71.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 1"
+  },
+  {
+    "Id": 176.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 16"
+  },
+  {
+    "Id": 40.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 8"
+  },
+  {
+    "Id": 55.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 13"
+  },
+  {
+    "Id": 183.0,
+    "DistrictId": 9.0,
+    "WardName": "Tăng Nhơn Phú B"
+  },
+  {
+    "Id": 17.0,
+    "DistrictId": 2.0,
+    "WardName": "Bình Trưng Tây"
+  },
+  {
+    "Id": 67.0,
+    "DistrictId": 7.0,
+    "WardName": "Tân Phú "
+  },
+  {
+    "Id": 74.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 2"
+  },
+  {
+    "Id": 46.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 4"
+  },
+  {
+    "Id": 61.0,
+    "DistrictId": 7.0,
+    "WardName": "Bình Thuận"
+  },
+  {
+    "Id": 182.0,
+    "DistrictId": 9.0,
+    "WardName": "Tân Phú"
+  },
+  {
+    "Id": 79.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 7"
+  },
+  {
+    "Id": 70.0,
+    "DistrictId": 7.0,
+    "WardName": "Tân Thuận Tây"
+  },
+  {
+    "Id": 23.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 12"
+  },
+  {
+    "Id": 10.0,
+    "DistrictId": 1.0,
+    "WardName": "Tân Định"
+  },
+  {
+    "Id": 44.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 2"
+  },
+  {
+    "Id": 19.0,
+    "DistrictId": 2.0,
+    "WardName": "Thảo Điền"
+  },
+  {
+    "Id": 174.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 10"
+  },
+  {
+    "Id": 181.0,
+    "DistrictId": 9.0,
+    "WardName": "Phước Bình"
+  },
+  {
+    "Id": 50.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 9"
+  },
+  {
+    "Id": 66.0,
+    "DistrictId": 7.0,
+    "WardName": "Tân Phong"
+  },
+  {
+    "Id": 22.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 11"
+  },
+  {
+    "Id": 4.0,
+    "DistrictId": 1.0,
+    "WardName": "Cầu Ông Lãnh"
+  },
+  {
+    "Id": 87.0,
+    "DistrictId": 9.0,
+    "WardName": "Phước Long A"
+  },
+  {
+    "Id": 173.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 9"
+  },
+  {
+    "Id": 33.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 13 "
+  },
+  {
+    "Id": 48.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 6"
+  },
+  {
+    "Id": 63.0,
+    "DistrictId": 7.0,
+    "WardName": "Phú Thuận"
+  },
+  {
+    "Id": 21.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 1"
+  },
+  {
+    "Id": 9.0,
+    "DistrictId": 1.0,
+    "WardName": "Phạm Ngũ Lão"
+  },
+  {
+    "Id": 172.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 10"
+  },
+  {
+    "Id": 54.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 12"
+  },
+  {
+    "Id": 179.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 5"
+  },
+  {
+    "Id": 24.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 13"
+  },
+  {
+    "Id": 1.0,
+    "DistrictId": 1.0,
+    "WardName": "Bến Nghé"
+  },
+  {
+    "Id": 65.0,
+    "DistrictId": 7.0,
+    "WardName": "Tân Kiểng"
+  },
+  {
+    "Id": 60.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 8"
+  },
+  {
+    "Id": 86.0,
+    "DistrictId": 9.0,
+    "WardName": "Phú Hữu"
+  },
+  {
+    "Id": 27.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 5"
+  },
+  {
+    "Id": 37.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 4"
+  },
+  {
+    "Id": 12.0,
+    "DistrictId": 2.0,
+    "WardName": "An Khánh"
+  },
+  {
+    "Id": 171.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 3"
+  },
+  {
+    "Id": 52.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 10"
+  },
+  {
+    "Id": 35.0,
+    "DistrictId": 4.0,
+    "WardName": "Ward 2"
+  },
+  {
+    "Id": 5.0,
+    "DistrictId": 1.0,
+    "WardName": "Cô Giang"
+  },
+  {
+    "Id": 73.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 16"
+  },
+  {
+    "Id": 41.0,
+    "DistrictId": 5.0,
+    "WardName": "Ward 1"
+  },
+  {
+    "Id": 180.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 9"
+  },
+  {
+    "Id": 56.0,
+    "DistrictId": 6.0,
+    "WardName": "Ward 14"
+  },
+  {
+    "Id": 78.0,
+    "DistrictId": 8.0,
+    "WardName": "Ward 6"
+  },
+  {
+    "Id": 25.0,
+    "DistrictId": 3.0,
+    "WardName": "Ward 14"
+  },
+  {
+    "Id": 11.0,
+    "DistrictId": 2.0,
+    "WardName": "Thạnh Mỹ Lợi "
+  },
+  {
+    "Id": 69.0,
+    "DistrictId": 7.0,
+    "WardName": "Tân Thuận Đông"
+  },
+  {
+    "Id": 2.0,
+    "DistrictId": 1.0,
+    "WardName": "Bến Thành"
+  },
+  {
+    "Id": 90.0,
+    "DistrictId": 9.0,
+    "WardName": "Trường Thạnh"
+  }
+]
