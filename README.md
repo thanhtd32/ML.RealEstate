@@ -25,7 +25,7 @@ Install-Package ML.RealEstate -ProjectName YourProject
 
 The classes of the ML.RealEstate:
 
-![alt text](https://raw.githubusercontent.com/thanhtd32/ML.RealEstate/main/Images/fig-classes-ml.realestate.PNG)
+![alt text](https://raw.githubusercontent.com/thanhtd32/ML.RealEstate/main/Images/realestate_demo.PNG)
 
 
 Download and Copy Dataset folder "RealEstateDataset"(https://github.com/thanhtd32/ML.RealEstate/tree/main/RealEstateDataset) into your execution directory. We will continue update the dataset day by day, now there are about 2.353 private house transactions, in the future the transactions have more than 10.000 transactions  , just like this figure as below:
