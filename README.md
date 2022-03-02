@@ -37,12 +37,13 @@ All Soure code how to use ML.RealEstate is stored https://github.com/thanhtd32/M
 ```C#
 using ML.RealEstate.Data;
 using ML.RealEstate.Predict;
-
+using System.IO;
 namespace ML.RealEstateDemo
 {
     public partial class frmMain : Form
     {
         BrokerRealEstate broker = new BrokerRealEstate();
+        string folder = "Models";
         public frmMain()
         {
             InitializeComponent();
@@ -52,7 +53,24 @@ namespace ML.RealEstateDemo
         {
             RealEstateDatabase.LoadAllDataset();
             ShowDataInUI();
+            LoadModelIntoCombo();
         }
+        private void LoadModelIntoCombo()
+        {
+            cboModel.Items.Clear();
+            
+            if(Directory.Exists(folder)==false)
+            {
+                return;
+            }
+            string []files=Directory.GetFiles(folder);
+            foreach (string file in files)
+            {
+                FileInfo fi=new FileInfo(file);
+                cboModel.Items.Add(fi.Name);
+            }
+        }
+
         private void ShowDataInUI()
         {
             cboHouseType.DataSource = RealEstateDatabase.GetHouseTypes();
@@ -73,6 +91,10 @@ namespace ML.RealEstateDemo
                 lblStatusImportData.Text = "Import and make train - test dataset successfully";
             else
                 lblStatusImportData.Text = "Import and make train - test dataset failed";
+            lblStatusBuildModel.Text = "";
+            lblStatusEvaluate.Text = "";
+            lblStatusSaveModel.Text = "";
+            lblStatusLoadModel.Text = "";
         }
         //Step 2. Build Model
         private void btnBuildModel_Click(object sender, EventArgs e)
@@ -99,16 +121,25 @@ namespace ML.RealEstateDemo
         //Step 4. Save Model
         private void btnSaveModel_Click(object sender, EventArgs e)
         {
-            bool ret = broker.SaveModel(RealEstateDatabase.SaveModelName);
+            if(Directory.Exists(folder)==false)
+            {
+                Directory.CreateDirectory(folder);  
+            }
+            string path = folder + "\\ML.RealEstateModel-"+DateTime.Now.ToString("ddMMyyyy-hhmmss")+".zip";
+            bool ret = broker.SaveModel(path);
             if (ret)
                 lblStatusSaveModel.Text = "Save Model successfully";
             else
                 lblStatusSaveModel.Text = "Save Model failed";
+            LoadModelIntoCombo();
         }
         //Step 5. Load Model
         private void btnLoadModel_Click(object sender, EventArgs e)
         {
-            bool ret = broker.LoadModel(RealEstateDatabase.SaveModelName);
+            if (cboModel.SelectedIndex == -1)
+                return;
+            string modelName = folder + "\\" + cboModel.Text;
+            bool ret = broker.LoadModel(modelName);
             if (ret)
                 lblStatusLoadModel.Text = "Load Model successfully";
             else
@@ -133,6 +164,12 @@ namespace ML.RealEstateDemo
             inputData.ToiletRoom = float.Parse(txtToiletRoom.Text);
             Prediction result = broker.Predict(inputData);
             txtPrice.Text = result.Price.ToString();
+
+           /* lblStatusBuildModel.Text = "";
+            lblStatusEvaluate.Text = "";
+            lblStatusSaveModel.Text = "";
+            lblStatusLoadModel.Text = "";
+            lblStatusImportData.Text = ""; */
         }
 
         private void cboCity_SelectedIndexChanged(object sender, EventArgs e)
@@ -156,5 +193,6 @@ namespace ML.RealEstateDemo
         }
     }
 }
+
 ```
 
